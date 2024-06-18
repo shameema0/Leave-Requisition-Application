@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head></head>
+  <style>
+  body{
+background-color:#e7e7e7;
+}
+div#box{
+background-color:white;
+height:200px;
+width:400px;
+ border:1px solid black;
+ 
+ }
+.button {
+  background-color: black; color: white;
+  border-radius: 12px;
+  padding: 7px 20px;
+  text-align: center
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 2px;
+  cursor: pointer;
+  }
+  </style>
+  <body>
+  <br>
+  <br>
+  <br>
+  <br>
+  <center>
+  <div id="box">
+  
+   <form action="logindbase.jsp">
+   <h2>Unassigned Roles</h2>
+  <b>Name</b>
+      <input type="text" placeholder="Enter Name" name="name" required><br/><br />
+      <b>Dept</b>
+      <input type="text" placeholder="Enter dept" name="dept" required>
+        <br /><br />
+		<b>Year</b>
+		<input type="text" placeholder="Enter year" name="year" required>
+        <br /><br />
+		<b>Role Assigned</b>
+     <input type="radio" name="nation" value="Professor" required>Professor
+<input type="radio" name="nation" value="Student" required> Student
+        <br /><br />
+      <button type="submit" class="button">Assign Roles</button>
+	  </center>
+      </div>
+	  </form>
+	  </body>
+	  </html>
